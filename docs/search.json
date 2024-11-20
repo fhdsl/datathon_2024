@@ -1,0 +1,170 @@
+[
+  {
+    "objectID": "explore.html",
+    "href": "explore.html",
+    "title": "Data Exploration Questions",
+    "section": "",
+    "text": "How is the Depressed Variable defined?\nWhen was the data collected?\nHow many missing values are there for the Depressed variable?\nHow many missing values are there for Depressed?\nHow many categories does LittleInterest have? What do they represent?\nIs there an association of LittleInterest with Depressed?\nIs marijuana use associated with depression?\nWhat is the oldest person in the dataset? Any idea why?\nHow is sleep defined in the dataset?\nHow are sleep and marijuana use related in the dataset?\nWhat is the most frequent number of sleep hours in the data?\nIs there a relationship between Sleep hours and depression?\nIs there a relationship between Sleep hours and Age?"
+  },
+  {
+    "objectID": "explore.html#depression-questions",
+    "href": "explore.html#depression-questions",
+    "title": "Data Exploration Questions",
+    "section": "",
+    "text": "How is the Depressed Variable defined?\nWhen was the data collected?\nHow many missing values are there for the Depressed variable?\nHow many missing values are there for Depressed?\nHow many categories does LittleInterest have? What do they represent?\nIs there an association of LittleInterest with Depressed?\nIs marijuana use associated with depression?\nWhat is the oldest person in the dataset? Any idea why?\nHow is sleep defined in the dataset?\nHow are sleep and marijuana use related in the dataset?\nWhat is the most frequent number of sleep hours in the data?\nIs there a relationship between Sleep hours and depression?\nIs there a relationship between Sleep hours and Age?"
+  },
+  {
+    "objectID": "explore.html#physical-activity-questions",
+    "href": "explore.html#physical-activity-questions",
+    "title": "Data Exploration Questions",
+    "section": "Physical Activity Questions",
+    "text": "Physical Activity Questions\n\nWhat is the percent missing for PhysActive (yes/no physically active)?\nWhat are the characteristics of people who have missing responses for PhysActive?\nHow does missingness and responses in PhysActive relate to responses and missingness in PhysActiveDays and PhysActiveDaysAtLeast3? How does the proportion of missingness in PhysActiveDaysAtLeast3 (yes = PhysActiveDays&gt;= 3, no &lt; 3) relate to PhysActive response? Is this what you would expect?\nIs there something strange about Age?\nWhat is the median and interquartile range of PhysActiveDays?\nIs number of sleep hours associated with physical activity? Consider using the categorized variable SleepHrsNightCat.\nWhat about levels of education?\nWhat about BMI? Is the association of BMI with physical activity dependent on which measure of activity you use – PhysActive (yes/no) or PhysActiveDaysAtLeast3?\nAre there other covariates you expect to be associated with physical activity? How do they relate to each other?"
+  },
+  {
+    "objectID": "explore.html#diabetes",
+    "href": "explore.html#diabetes",
+    "title": "Data Exploration Questions",
+    "section": "Diabetes",
+    "text": "Diabetes\n\nHow is the variable Diabetes defined?\nWhat % of Diabetes responses/entries is missing? What % of DiabetesAge is missing? How do you explain this?\nHow common is DM in men of the study group? How common in women?\nHow common is DM in different BMI groups?\nIs DM more common in those who are physically active or who are not?\nIs diabetes more common among smokers or non-smokers?\nDo the TV watching habits differ between those with and without diabetes? What about physical activity? How confident are you in each of these conclusions?\nWhat is the most common age when diabetes is diagnosed? How about young children &lt; 5 years old?\nIs diabetes more a disease of youth or of age?\nWho has higher blood pressure (on average) – those with or without diabetes?\nWhat is the median age of those with diabetes and obesity = BMI &gt; 30? (Age, BMI_WHO, high difficulty – boxplot with Age + BMI_WHO + Diabetes\nIs there a correlation between the age of diabetes diagnosis and the BMI?\nAre those with diabetes more likely to have a higher BMI the older they are? Compare it to those without diabetes.\nWhat’s the level of physical activity of children with diabetes? What do you notice about the data? (Don’t look at the variable defitions before doing this one.)\nIs the number of hours of computer/gaming per day associated with diabetes? Is this true for all ages?"
+  },
+  {
+    "objectID": "nhanes_overview.html",
+    "href": "nhanes_overview.html",
+    "title": "NHANES data overview",
+    "section": "",
+    "text": "NHANES Extract in Google Sheet Form"
+  },
+  {
+    "objectID": "nhanes_overview.html#take-a-look-at-the-data-as-a-sheet",
+    "href": "nhanes_overview.html#take-a-look-at-the-data-as-a-sheet",
+    "title": "NHANES data overview",
+    "section": "",
+    "text": "NHANES Extract in Google Sheet Form"
+  },
+  {
+    "objectID": "nhanes_overview.html#summary-tables-of-the-data",
+    "href": "nhanes_overview.html#summary-tables-of-the-data",
+    "title": "NHANES data overview",
+    "section": "Summary Tables of the data",
+    "text": "Summary Tables of the data\nBelow is the output from an R package called {skimr}, which gives you some ideas about the data.\n\nlibrary(skimr)\nlibrary(NHANES)\nskimr::skim(NHANES)\n\n\nData summary\n\n\nName\nNHANES\n\n\nNumber of rows\n10000\n\n\nNumber of columns\n76\n\n\n_______________________\n\n\n\nColumn type frequency:\n\n\n\nfactor\n31\n\n\nnumeric\n45\n\n\n________________________\n\n\n\nGroup variables\nNone\n\n\n\nVariable type: factor\n\n\n\n\n\n\n\n\n\n\n\nskim_variable\nn_missing\ncomplete_rate\nordered\nn_unique\ntop_counts\n\n\n\n\nSurveyYr\n0\n1.00\nFALSE\n2\n200: 5000, 201: 5000\n\n\nGender\n0\n1.00\nFALSE\n2\nfem: 5020, mal: 4980\n\n\nAgeDecade\n333\n0.97\nFALSE\n8\n40: 1398, 0-: 1391, 10: 1374, 20: 1356\n\n\nRace1\n0\n1.00\nFALSE\n5\nWhi: 6372, Bla: 1197, Mex: 1015, Oth: 806\n\n\nRace3\n5000\n0.50\nFALSE\n6\nWhi: 3135, Bla: 589, Mex: 480, His: 350\n\n\nEducation\n2779\n0.72\nFALSE\n5\nSom: 2267, Col: 2098, Hig: 1517, 9 -: 888\n\n\nMaritalStatus\n2769\n0.72\nFALSE\n6\nMar: 3945, Nev: 1380, Div: 707, Liv: 560\n\n\nHHIncome\n811\n0.92\nFALSE\n12\nmor: 2220, 750: 1084, 250: 958, 350: 863\n\n\nHomeOwn\n63\n0.99\nFALSE\n3\nOwn: 6425, Ren: 3287, Oth: 225\n\n\nWork\n2229\n0.78\nFALSE\n3\nWor: 4613, Not: 2847, Loo: 311\n\n\nBMICatUnder20yrs\n8726\n0.13\nFALSE\n4\nNor: 805, Obe: 221, Ove: 193, Und: 55\n\n\nBMI_WHO\n397\n0.96\nFALSE\n4\n18.: 2911, 30.: 2751, 25.: 2664, 12.: 1277\n\n\nDiabetes\n142\n0.99\nFALSE\n2\nNo: 9098, Yes: 760\n\n\nHealthGen\n2461\n0.75\nFALSE\n5\nGoo: 2956, Vgo: 2508, Fai: 1010, Exc: 878\n\n\nLittleInterest\n3333\n0.67\nFALSE\n3\nNon: 5103, Sev: 1130, Mos: 434\n\n\nDepressed\n3327\n0.67\nFALSE\n3\nNon: 5246, Sev: 1009, Mos: 418\n\n\nSleepTrouble\n2228\n0.78\nFALSE\n2\nNo: 5799, Yes: 1973\n\n\nPhysActive\n1674\n0.83\nFALSE\n2\nYes: 4649, No: 3677\n\n\nTVHrsDay\n5141\n0.49\nFALSE\n7\n2_h: 1275, 1_h: 884, 3_h: 836, 0_t: 638\n\n\nCompHrsDay\n5137\n0.49\nFALSE\n7\n0_t: 1409, 0_h: 1073, 1_h: 1030, 2_h: 589\n\n\nAlcohol12PlusYr\n3420\n0.66\nFALSE\n2\nYes: 5212, No: 1368\n\n\nSmokeNow\n6789\n0.32\nFALSE\n2\nNo: 1745, Yes: 1466\n\n\nSmoke100\n2765\n0.72\nFALSE\n2\nNo: 4024, Yes: 3211\n\n\nSmoke100n\n2765\n0.72\nFALSE\n2\nNon: 4024, Smo: 3211\n\n\nMarijuana\n5059\n0.49\nFALSE\n2\nYes: 2892, No: 2049\n\n\nRegularMarij\n5059\n0.49\nFALSE\n2\nNo: 3575, Yes: 1366\n\n\nHardDrugs\n4235\n0.58\nFALSE\n2\nNo: 4700, Yes: 1065\n\n\nSexEver\n4233\n0.58\nFALSE\n2\nYes: 5544, No: 223\n\n\nSameSex\n4232\n0.58\nFALSE\n2\nNo: 5353, Yes: 415\n\n\nSexOrientation\n5158\n0.48\nFALSE\n3\nHet: 4638, Bis: 119, Hom: 85\n\n\nPregnantNow\n8304\n0.17\nFALSE\n3\nNo: 1573, Yes: 72, Unk: 51\n\n\n\nVariable type: numeric\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nskim_variable\nn_missing\ncomplete_rate\nmean\nsd\np0\np25\np50\np75\np100\nhist\n\n\n\n\nID\n0\n1.00\n61944.64\n5871.17\n51624.00\n56904.50\n62159.50\n67039.00\n71915.00\n▇▇▇▇▇\n\n\nAge\n0\n1.00\n36.74\n22.40\n0.00\n17.00\n36.00\n54.00\n80.00\n▇▇▇▆▅\n\n\nAgeMonths\n5038\n0.50\n420.12\n259.04\n0.00\n199.00\n418.00\n624.00\n959.00\n▇▇▇▆▃\n\n\nHHIncomeMid\n811\n0.92\n57206.17\n33020.28\n2500.00\n30000.00\n50000.00\n87500.00\n100000.00\n▃▆▃▁▇\n\n\nPoverty\n726\n0.93\n2.80\n1.68\n0.00\n1.24\n2.70\n4.71\n5.00\n▅▅▃▃▇\n\n\nHomeRooms\n69\n0.99\n6.25\n2.28\n1.00\n5.00\n6.00\n8.00\n13.00\n▂▆▇▂▁\n\n\nWeight\n78\n0.99\n70.98\n29.13\n2.80\n56.10\n72.70\n88.90\n230.70\n▂▇▂▁▁\n\n\nLength\n9457\n0.05\n85.02\n13.71\n47.10\n75.70\n87.00\n96.10\n112.20\n▁▃▆▇▃\n\n\nHeadCirc\n9912\n0.01\n41.18\n2.31\n34.20\n39.58\n41.45\n42.92\n45.40\n▁▂▇▇▅\n\n\nHeight\n353\n0.96\n161.88\n20.19\n83.60\n156.80\n166.00\n174.50\n200.40\n▁▁▁▇▂\n\n\nBMI\n366\n0.96\n26.66\n7.38\n12.88\n21.58\n25.98\n30.89\n81.25\n▇▆▁▁▁\n\n\nPulse\n1437\n0.86\n73.56\n12.16\n40.00\n64.00\n72.00\n82.00\n136.00\n▂▇▃▁▁\n\n\nBPSysAve\n1449\n0.86\n118.15\n17.25\n76.00\n106.00\n116.00\n127.00\n226.00\n▃▇▂▁▁\n\n\nBPDiaAve\n1449\n0.86\n67.48\n14.35\n0.00\n61.00\n69.00\n76.00\n116.00\n▁▁▇▇▁\n\n\nBPSys1\n1763\n0.82\n119.09\n17.50\n72.00\n106.00\n116.00\n128.00\n232.00\n▂▇▂▁▁\n\n\nBPDia1\n1763\n0.82\n68.28\n13.78\n0.00\n62.00\n70.00\n76.00\n118.00\n▁▁▇▆▁\n\n\nBPSys2\n1647\n0.84\n118.48\n17.49\n76.00\n106.00\n116.00\n128.00\n226.00\n▃▇▂▁▁\n\n\nBPDia2\n1647\n0.84\n67.66\n14.42\n0.00\n60.00\n68.00\n76.00\n118.00\n▁▁▇▆▁\n\n\nBPSys3\n1635\n0.84\n117.93\n17.18\n76.00\n106.00\n116.00\n126.00\n226.00\n▃▇▂▁▁\n\n\nBPDia3\n1635\n0.84\n67.30\n14.96\n0.00\n60.00\n68.00\n76.00\n116.00\n▁▁▇▇▁\n\n\nTestosterone\n5874\n0.41\n197.90\n226.50\n0.25\n17.70\n43.82\n362.41\n1795.60\n▇▂▁▁▁\n\n\nDirectChol\n1526\n0.85\n1.36\n0.40\n0.39\n1.09\n1.29\n1.58\n4.03\n▅▇▂▁▁\n\n\nTotChol\n1526\n0.85\n4.88\n1.08\n1.53\n4.11\n4.78\n5.53\n13.65\n▂▇▁▁▁\n\n\nUrineVol1\n987\n0.90\n118.52\n90.34\n0.00\n50.00\n94.00\n164.00\n510.00\n▇▅▂▁▁\n\n\nUrineFlow1\n1603\n0.84\n0.98\n0.95\n0.00\n0.40\n0.70\n1.22\n17.17\n▇▁▁▁▁\n\n\nUrineVol2\n8522\n0.15\n119.68\n90.16\n0.00\n52.00\n95.00\n171.75\n409.00\n▇▆▃▂▁\n\n\nUrineFlow2\n8524\n0.15\n1.15\n1.07\n0.00\n0.48\n0.76\n1.51\n13.69\n▇▁▁▁▁\n\n\nDiabetesAge\n9371\n0.06\n48.42\n15.68\n1.00\n40.00\n50.00\n58.00\n80.00\n▁▂▆▇▂\n\n\nDaysPhysHlthBad\n2468\n0.75\n3.33\n7.40\n0.00\n0.00\n0.00\n3.00\n30.00\n▇▁▁▁▁\n\n\nDaysMentHlthBad\n2466\n0.75\n4.13\n7.83\n0.00\n0.00\n0.00\n4.00\n30.00\n▇▁▁▁▁\n\n\nnPregnancies\n7396\n0.26\n3.03\n1.80\n1.00\n2.00\n3.00\n4.00\n32.00\n▇▁▁▁▁\n\n\nnBabies\n7584\n0.24\n2.46\n1.32\n0.00\n2.00\n2.00\n3.00\n12.00\n▇▅▁▁▁\n\n\nAge1stBaby\n8116\n0.19\n22.65\n4.77\n14.00\n19.00\n22.00\n26.00\n39.00\n▆▇▅▂▁\n\n\nSleepHrsNight\n2245\n0.78\n6.93\n1.35\n2.00\n6.00\n7.00\n8.00\n12.00\n▁▅▇▁▁\n\n\nPhysActiveDays\n5337\n0.47\n3.74\n1.84\n1.00\n2.00\n3.00\n5.00\n7.00\n▇▇▃▅▅\n\n\nTVHrsDayChild\n9347\n0.07\n1.94\n1.43\n0.00\n1.00\n2.00\n3.00\n6.00\n▇▆▂▂▂\n\n\nCompHrsDayChild\n9347\n0.07\n2.20\n2.52\n0.00\n0.00\n1.00\n6.00\n6.00\n▇▁▁▁▃\n\n\nAlcoholDay\n5086\n0.49\n2.91\n3.18\n1.00\n1.00\n2.00\n3.00\n82.00\n▇▁▁▁▁\n\n\nAlcoholYear\n4078\n0.59\n75.10\n103.03\n0.00\n3.00\n24.00\n104.00\n364.00\n▇▁▁▁▁\n\n\nSmokeAge\n6920\n0.31\n17.83\n5.33\n6.00\n15.00\n17.00\n19.00\n72.00\n▇▂▁▁▁\n\n\nAgeFirstMarij\n7109\n0.29\n17.02\n3.90\n1.00\n15.00\n16.00\n19.00\n48.00\n▁▇▂▁▁\n\n\nAgeRegMarij\n8634\n0.14\n17.69\n4.81\n5.00\n15.00\n17.00\n19.00\n52.00\n▂▇▁▁▁\n\n\nSexAge\n4460\n0.55\n17.43\n3.72\n9.00\n15.00\n17.00\n19.00\n50.00\n▇▅▁▁▁\n\n\nSexNumPartnLife\n4275\n0.57\n15.09\n57.85\n0.00\n2.00\n5.00\n12.00\n2000.00\n▇▁▁▁▁\n\n\nSexNumPartYear\n5072\n0.49\n1.34\n2.78\n0.00\n1.00\n1.00\n1.00\n69.00\n▇▁▁▁▁"
+  },
+  {
+    "objectID": "nhanes_overview.html#data-dictionary",
+    "href": "nhanes_overview.html#data-dictionary",
+    "title": "NHANES data overview",
+    "section": "Data Dictionary",
+    "text": "Data Dictionary\n\n\n\n\n\n\n\n\nVariable Name\nDescription\n\n\n\n\n\nGender\nGender (sex) of study participant coded as male or female\n\n\n\nAge\nAge in years at screening of study participant. Note: Subjects 80 years or older were recorded as 80.\n\n\n\nAgeDecade\nCategorical variable derived from age with levels 0-9, 10-19, … 70+\n\n\n\nAgeMonths\nAge in months at screening of study participant. Reported for participants aged 0 to 79 years for 2009 to 2010 data Reported for participants aged 0 to 2 years for 2011 to 2012 data.\n\n\n\nRace1\nReported race of study participant: Mexican, Hispanic, White, Black, or Other.\n\n\n\nRace3\nReported race of study participant, including non-Hispanic Asian category: Mexican, Hispanic, White, Black, Asian, or Other. Not availale for 2009-10.\n\n\n\nEducation\nEducational level of study participant Reported for participants aged 20 years or older. One of 8thGrade, 9-11thGrade, HighSchool, SomeCollege, or CollegeGrad.\n\n\n\nMaritalStatus\nMarital status of study participant. Reported for participants aged 20 years or older. One of Married, Widowed, Divorced, Separated, NeverMarried, or LivePartner (living with partner).\n\n\n\nHHIncome\nTotal annual gross income for the household in US dollars. One of 0 - 4999, 5000 - 9,999, 10000 - 14999, 15000 - 19999, 20000 - 24,999, 25000 - 34999, 35000 - 44999, 45000 - 54999, 55000 - 64999, 65000 - 74999, 75000 - 99999, or 100000 or More.\n\n\n\nHHIncomeMid\nNumerical version of HHIncome derived from the middle income in each category\n\n\n\nPoverty\nA ratio of family income to poverty guidelines. Smaller numbers indicate more poverty\n\n\n\nHomeRooms\nHow many rooms are in home of study participant (counting kitchen but not bathroom). 13 rooms = 13 or more rooms.\n\n\n\nHomeOwn\nOne of Home, Rent, or Other indicating whether the home of study participant or someone in their family is owned, rented or occupied by some other arrangement.\n\n\n\nWeight\nWeight in kg\n\n\n\nLength\nRecumbent length in cm. Reported for participants aged 0 - 3 years.\n\n\n\nHeadCirc\nHead circumference in cm. Reported for participants aged 0 years (0 - 6 months).\n\n\n\nHeight\nStanding height in cm. Reported for participants aged 2 years or older.\n\n\n\nBMI\nBody mass index (weight/height2 in kg/m2). Reported for participants aged 2 years or older.\n\n\n\nBMICatUnder20yrs\nBody mass index category. Reported for participants aged 2 to 19 years. One of UnderWeight (BMI &lt; 5th percentile) NormWeight (BMI 5th to &lt; 85th percentile), OverWeight (BMI 85th to &lt; 95th percentile), Obese (BMI &gt;= 95th percentile).\n\n\n\nBMI_WHO\nBody mass index category. Reported for participants aged 2 years or older. One of 12.0_18.4, 18.5_24.9, 25.0_29.9, or 30.0_plus.\n\n\n\nPulse\n60 second pulse rate\n\n\n\nBPSysAve\nCombined systolic blood pressure reading, following the procedure outlined for BPXSAR.\n\n\n\nBPDiaAve\nCombined diastolic blood pressure reading, following the procedure outlined for BPXDAR.\n\n\n\nBPSys1,2,3\nSystolic blood pressure in mm Hg – first reading\n\n\n\nBPDia1,2,3\nDiastolic blood pressure in mm Hg – second reading (consecutive readings)\n\n\n\nTestosterone\nTesterone total (ng/dL). Reported for participants aged 6 years or older. Not available for 2009-2010.\n\n\n\nDirectChol\nDirect HDL cholesterol in mmol/L. Reported for participants aged 6 years or older.\n\n\n\nTotChol\nTotal HDL cholesterol in mmol/L. Reported for participants aged 6 years or older.\n\n\n\nUrineVol1\nUrine volume in mL – first test. Reported for participants aged 6 years or older.\n\n\n\nUrineFlow1\nUrine flow rate (urine volume/time since last urination) in mL/min – first test. Reported for participants aged 6 years or older.\n\n\n\nUrineVol2\nUrine volume in mL – second test. Reported for participants aged 6 years or older.\n\n\n\nUrineFlow2\nUrine flow rate (urine volume/time since last urination) in mL/min – second test. Reported for participants aged 6 years or older.\n\n\n\nDiabetes\nStudy participant told by a doctor or health professional that they have diabetes. Reported for participants aged 1 year or older as Yes or No.\n\n\n\nDiabetesAge\nAge of study participant when first told they had diabetes. Reported for participants aged 1 year or older.\n\n\n\nHealthGen\nSelf-reported rating of participant’s health in general Reported for participants aged 12 years or older. One of Excellent, Vgood, Good, Fair, or Poor.\n\n\n\nDaysPhysHlthBad\nSelf-reported number of days participant’s physical health was not good out of the past 30 days. Reported for participants aged 12 years or older.\n\n\n\nDaysMentHlthBad\nSelf-reported number of days participant’s mental health was not good out of the past 30 days. Reported for participants aged 12 years or older.\n\n\n\nLittleInterest\nSelf-reported number of days where participant had little interest in doing things. Reported for participants aged 18 years or older. One of None, Several, Majority (more than half the days), or AlmostAll.\n\n\n\nDepressed\nSelf-reported number of days where participant felt down, depressed or hopeless. Reported for participants aged 18 years or older. One of None, Several, Majority (more than half the days), or AlmostAll.\n\n\n\nnPregnancies\nHow many times participant has been pregnant. Reported for female participants aged 20 years or older.\n\n\n\nnBabies\nHow many of participants deliveries resulted in live births. Reported for female participants aged 20 years or older.\n\n\n\nPregnantNow\nPregnancy status at the time of the health examination was ascertained for females 8-59 years of age. Due to disclosure risks pregnancy status was only be released for women 20-44 years of age. The information used included urine pregnancy test results and self-reported pregnancy status. Urine pregnancy tests were performed prior to the dual energy x-ray absorptiometry (DXA) exam. Persons who reported they were pregnant at the time of exam were assumed to be pregnant. As a result, if the urine test was negative, but the subject reported they were pregnant, the status was coded as \"Yes\". If the urine pregnancy results were negative and the respondent stated that they were not pregnant, the respondent was coded as \"No\" If the urine pregnancy results were negative and the respondent did not know her pregnancy status, the respondent was coded \"unknown\" Persons who were interviewed, but not examined also have a value of \"unknown\". In addition there are missing values.\n\n\n\nAge1stBaby\nAge of participant at time of first live birth. 14 years or under = 14, 45 years or older = 45. Reported for female participants aged 20 years or older.\n\n\n\nSleepHrsNight\nSelf-reported number of hours study participant usually gets at night on weekdays or workdays. Reported for participants aged 16 years and older.\n\n\n\nSleepTrouble\nParticipant has told a doctor or other health professional that they had trouble sleeping. Reported for participants aged 16 years and older. Coded as Yes or No.\n\n\n\nPhysActive\nParticipant does moderate or vigorous-intensity sports, fitness or recreational activities (Yes or No). Reported for participants 12 years or older.\n\n\n\nPhysActiveDays\nNumber of days in a typical week that participant does moderate or vigorous-intensity activity. Reported for participants 12 years or older.\n\n\n\nTVHrsDay\nNumber of hours per day on average participant watched TV over the past 30 days. Reported for participants 2 years or older. One of 0_to_1hr, 1_hr, 2_hr, 3_hr, 4_hr, More_4_hr. Not available 2009-2010.\n\n\n\nCompHrsDay\nNumber of hours per day on average participant used a computer or gaming device over the past 30 days. Reported for participants 2 years or older. One of 0_hrs, 0_to_1hr, 1_hr, 2_hr, 3_hr, 4_hr, More_4_hr. Not available 2009-2010.\n\n\n\nTVHrsDayChild\nNumber of hours per day on average participant watched TV over the past 30 days. Reported for participants 2 to 11 years. Not available 2011-2012.\n\n\n\nCompHrsDayChild\nNumber of hours per day on average participant used a computer or gaming device over the past 30 days. Reported for participants 2 to 11 years old. Not available 2011-2012.\n\n\n\nAlcohol12PlusYr\nParticipant has consumed at least 12 drinks of any type of alcoholic beverage in any one year. Reported for participants 18 years or older as Yes or No.\n\n\n\nAlcoholDay\nAverage number of drinks consumed on days that participant drank alcoholic beverages. Reported for participants aged 18 years or older.\n\n\n\nAlcoholYear\nEstimated number of days over the past year that participant drank alcoholic beverages. Reported for participants aged 18 years or older.\n\n\n\nSmokeNow\nStudy participant currently smokes cigarettes regularly. Reported for participants aged 20 years or older as Yes or No, provieded they answered Yes to having somked 100 or more cigarettes in their life time. All subjects who have not smoked 100 or more cigarettes are listed as NA here.\n\n\n\nSmoke100\nStudy participant has smoked at least 100 cigarettes in their entire life. Reported for participants aged 20 years or older as Yes or No.\n\n\n\nSmokeAge\nAge study participant first started to smoke cigarettes fairly regularly. Reported for participants aged 20 years or older.\n\n\n\nMarijuana\nParticipant has tried marijuana. Reported for participants aged 18 to 59 years as Yes or No.\n\n\n\nAgeFirstMarij\nAge participant first tried marijuana. Reported for participants aged 18 to 59 years.\n\n\n\nRegularMarij\nParticipant has been/is a regular marijuana user (used at least once a month for a year). Reported for participants aged 18 to 59 years as Yes or No.\n\n\n\nAgeRegMarij\nAge of participant when first started regularly using marijuana. Reported for participants aged 18 to 59 years.\n\n\n\nHardDrugs\nParticipant has tried cocaine, crack cocaine, heroin or methamphetamine. Reported for participants aged 18 to 69 years as Yes or No.\n\n\n\nSexEver\nParticipant had had vaginal, anal, or oral sex. Reported for participants aged 18 to 69 years as Yes or No.\n\n\n\nSexAge\nAge of participant when had sex for the first time. Reported for participants aged 18 to 69 years.\n\n\n\nSexNumPartnLife\nNumber of opposite sex partners participant has had any kind of sex with over their lifetime. Reported for participants aged 18 to 69 years.\n\n\n\nSexNumPartYear\nNumber of opposite sex partners participant has had any kind of sex with over the past 12 months. Reported for participants aged 18 to 59 years.\n\n\n\nSameSex\nParticipant has had any kind of sex with a same sex partner. Reported for participants aged 18 to 69 years ad Yes or No.\n\n\n\nSexOrientation\nparticipant’s sexual orientation (self-described). Reported for participants aged 18 to 59 years. One of Heterosexual, Homosexual, Bisexual.\n\n\n\n\n\n\n\n\n\n\nDemographic Variables\nFor more information on these demographic variables, see http://www.cdc.gov/nchs/nhanes/nhanes2009-2010/DEMO_F.htm or http://www.cdc.gov/nchs/nhanes/nhanes2011-2012/DEMO_G.htm.\n\n\nPhysical Measurements\nFor more information on body measurements, see http://www.cdc.gov/nchs/nhanes/nhanes2009-2010/BMX_F.htm and http://www.cdc.gov/nchs/nhanes/nhanes2011-2012/BMX_G.htm.\n\n\nHealth Variables\nFor more information on these variables, see http://www.cdc.gov/nchs/nhanes/nhanes2009-2010/HDL_F.htm or http://www.cdc.gov/nchs/nhanes/nhanes2011-2012/HDL_G.htm.\n\n\nLifestyle Variables\nMore information about these variables is available at http://www.cdc.gov/nchs/nhanes/nhanes2009-2010/SMQ_F.htm or http://www.cdc.gov/nchs/nhanes/nhanes2011-2012/SMQ_G.htm."
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "datathon_2024",
+    "section": "",
+    "text": "Welcome to the Datathon! We’re here to learn about data together, and grow our skills in data analysis and visualization.\nIn the Google Doc, please introduce yourself, what group you work in, and what you want to learn today.\nGoogle Doc Link"
+  },
+  {
+    "objectID": "index.html#welcome-to-the-datathon",
+    "href": "index.html#welcome-to-the-datathon",
+    "title": "datathon_2024",
+    "section": "",
+    "text": "Welcome to the Datathon! We’re here to learn about data together, and grow our skills in data analysis and visualization.\nIn the Google Doc, please introduce yourself, what group you work in, and what you want to learn today.\nGoogle Doc Link"
+  },
+  {
+    "objectID": "index.html#where-when",
+    "href": "index.html#where-when",
+    "title": "datathon_2024",
+    "section": "Where / When",
+    "text": "Where / When\n11/22/2024 (10 AM - 3 PM) - Arnold M1-406 (Data Science Lab lounge)"
+  },
+  {
+    "objectID": "index.html#choose-a-dataset",
+    "href": "index.html#choose-a-dataset",
+    "title": "datathon_2024",
+    "section": "Choose a Dataset",
+    "text": "Choose a Dataset\n\nNHANES - this is a more complicated dataset, so it needs a little bit of background\nCO2 Emissions"
+  },
+  {
+    "objectID": "index.html#post-its",
+    "href": "index.html#post-its",
+    "title": "datathon_2024",
+    "section": "Post-its",
+    "text": "Post-its\nWe’ll be roaming around in case anyone needs help with the R or Python Exploration of the data.\n\nGreen Post-it: I’m OK, don’t bother me\nPink Post-it: I need help!"
+  },
+  {
+    "objectID": "index.html#share-your-work",
+    "href": "index.html#share-your-work",
+    "title": "datathon_2024",
+    "section": "Share your work",
+    "text": "Share your work\nWe have a datathon google doc - please add any plots, with code or a short description of the insight you got from the data.\nNo Insight is too small - please share anything you’ve learned! Our goal is to increase our understanding of these public datasets."
+  },
+  {
+    "objectID": "index.html#announcements",
+    "href": "index.html#announcements",
+    "title": "datathon_2024",
+    "section": "Announcements",
+    "text": "Announcements\n\nPizza will be served at 12 PM\nCome or stay for as long as you like\nWill do data intro sessions as needed"
+  },
+  {
+    "objectID": "co2.html",
+    "href": "co2.html",
+    "title": "CO2 Emissions",
+    "section": "",
+    "text": "R Users: Posit Cloud Workspace: https://posit.cloud/spaces/570432/content/9256097\nPython Users: Google Colab notebook: https://colab.research.google.com/drive/1-fHDu2Y5Jz0iLcnexA4z5zj6NNHRkCWl?usp=sharing"
+  },
+  {
+    "objectID": "about.html",
+    "href": "about.html",
+    "title": "About",
+    "section": "",
+    "text": "About this site\n\n1 + 1\n\n[1] 2"
+  },
+  {
+    "objectID": "nhanes.html#what-is-nhanes-and-why-are-we-looking-at-it",
+    "href": "nhanes.html#what-is-nhanes-and-why-are-we-looking-at-it",
+    "title": "NHANES",
+    "section": "What is NHANES and why are we looking at it?",
+    "text": "What is NHANES and why are we looking at it?\n\nNational Health And Nutrition Examination Survey\nAssess health/nutritional status of adults/children in the United States\nTypes of Survey Questions:\n\nDemographic (Age, Race, Gender, many more…)\nSocioeconomic (Marriage Status, Household Income, Education)\nDietary (Foods consumed, dietary supplements)\nHealth (Body Mass Index, Sleep Trouble, Depression)"
+  },
+  {
+    "objectID": "nhanes.html#please-note",
+    "href": "nhanes.html#please-note",
+    "title": "NHANES",
+    "section": "Please Note",
+    "text": "Please Note\n\nWe’re not going to look at all of NHANES.\nWe’re looking at an extract from two years of the survey (which years?)\nWe’re ignoring how particpants were chosen/sampled from the larger population\n\nWe’ll talk a a little about this later."
+  },
+  {
+    "objectID": "nhanes.html#look-at-the-data-and-get-info",
+    "href": "nhanes.html#look-at-the-data-and-get-info",
+    "title": "NHANES",
+    "section": "Look at the Data and Get Info",
+    "text": "Look at the Data and Get Info\n\nNHANES Overview - this contains a spreadsheet, summary tables of the data and the data dictionary."
+  },
+  {
+    "objectID": "nhanes.html#outcomes",
+    "href": "nhanes.html#outcomes",
+    "title": "NHANES",
+    "section": "Outcomes",
+    "text": "Outcomes\nThis dataset has some potential outcomes of interest:\n\nDiabetes - Study participant told by a doctor or health professional that they have diabetes. Reported for participants aged 1 year or older as Yes or No.\nDepressed - Self-reported number of days where participant felt down, depressed or hopeless. Reported for participants aged 18 years or older. One of None, Several, Majority (more than half the days), or AlmostAll.\nPhysActive - Participant does moderate or vigorous-intensity sports, fitness or recreational activities (Yes or No). Reported for participants 12 years or older.\n\nYour type of outcomes here are categorical, not numeric, so think about which visualizations you’ll need."
+  },
+  {
+    "objectID": "nhanes.html#start-with-a-question",
+    "href": "nhanes.html#start-with-a-question",
+    "title": "NHANES",
+    "section": "Start with a question",
+    "text": "Start with a question\nTake a look at the list of variables in the data dictionary and make a prediction about which variables are associated with one of these outcomes.\nFor example, is drug usage (Marijuana, HardDrugs) have a positive association with Depression?\nHere is a list of questions for the above outcome variables if you’re stuck."
+  },
+  {
+    "objectID": "nhanes.html#visualize-your-outcome",
+    "href": "nhanes.html#visualize-your-outcome",
+    "title": "NHANES",
+    "section": "Visualize Your Outcome",
+    "text": "Visualize Your Outcome\nMake a 1-D plot of the outcome variable. What is the distribution like?"
+  },
+  {
+    "objectID": "nhanes.html#look-for-it-in-the-data",
+    "href": "nhanes.html#look-for-it-in-the-data",
+    "title": "NHANES",
+    "section": "Look for it in the data",
+    "text": "Look for it in the data\n\nTry looking for any association of your outcome and your variables of interest.\nTry filtering for a specific group (such as ``) and seeing"
+  }
+]

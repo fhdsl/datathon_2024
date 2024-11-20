@@ -10,6 +10,10 @@ In the Google Doc, please introduce yourself, what group you work in, and what y
 
 [Google Doc Link](https://docs.google.com/document/d/1KG8S0RTjWO0lCETE3ExN4w_3-HeQOLm9KDusYyiB92U/edit?tab=t.0)
 
+## Where / When
+
+11/22/2024 (10 AM - 3 PM) - Arnold M1-406 (Data Science Lab lounge) 
+
 ## Choose a Dataset
 
 - [NHANES](nhanes.qmd) - this is a more complicated dataset, so it needs a little bit of background
