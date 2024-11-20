@@ -1,0 +1,49 @@
+---
+title: "Data Exploration Questions"
+---
+
+## Depression Questions
+
+1. How is the `Depressed` Variable defined?
+2. When was the data collected? 
+3. How many missing values are there for the `Depressed` variable?
+4. How many missing values are there for `Depressed`?
+5. How many categories does `LittleInterest` have? What do they represent?
+6. Is there an association of `LittleInterest` with `Depressed`?
+7. Is marijuana use associated with depression?
+8. What is the oldest person in the dataset? Any idea why?
+9. How is sleep defined in the dataset?
+10. How are sleep and marijuana use related in the dataset?
+11. What is the most frequent number of sleep hours in the data?
+12. Is there a relationship between Sleep hours and depression?
+13. Is there a relationship between Sleep hours and Age?
+
+## Physical Activity Questions 
+
+1. What is the percent missing for `PhysActive` (yes/no physically active)?
+2. What are the characteristics of people who have missing responses for `PhysActive`?
+3. How does missingness and responses in `PhysActive` relate to responses and missingness in `PhysActiveDays` and PhysActiveDaysAtLeast3? How does the proportion of missingness in `PhysActiveDaysAtLeast3` (yes = `PhysActiveDays`>= 3, no < 3) relate to `PhysActive` response? Is this what you would expect?
+4. Is there something strange about `Age`?
+5. What is the median and interquartile range of `PhysActiveDays`?
+6. Is number of sleep hours associated with physical activity? Consider using the categorized variable `SleepHrsNightCat`.
+7. What about levels of education?
+8. What about BMI? Is the association of BMI with physical activity dependent on which measure of activity you use -- `PhysActive` (yes/no) or `PhysActiveDaysAtLeast3`?
+9. Are there other covariates you expect to be associated with physical activity? How do they relate to each other?
+
+## Diabetes
+ 
+1. How is the variable Diabetes defined?
+1. What % of Diabetes responses/entries is missing? What % of DiabetesAge is missing? How do you explain this?
+1. How common is DM in men of the study group? How common in women?
+1. How common is DM in different BMI groups?
+1. Is DM more common in those who are physically active or who are not?
+1. Is diabetes more common among smokers or non-smokers?
+1. Do the TV watching habits differ between those with and without diabetes? What about physical activity? How confident are you in each of these conclusions?
+1. What is the most common age when diabetes is diagnosed? How about young children < 5 years old?
+1. Is diabetes more a disease of youth or of age?
+1. Who has higher blood pressure (on average) – those with or without diabetes?
+1. What is the median age of those with diabetes and obesity = BMI > 30? (Age, BMI_WHO, high difficulty – boxplot with Age + BMI_WHO + Diabetes
+1. Is there a correlation between the age of diabetes diagnosis and the BMI?
+1. Are those with diabetes more likely to have a higher BMI the older they are? Compare it to those without diabetes.
+1. What’s the level of physical activity of children with diabetes? What do you notice about the data? (Don't look at the variable defitions before doing this one.)
+1. Is the number of hours of computer/gaming per day associated with diabetes? Is this true for all ages?

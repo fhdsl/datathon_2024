@@ -1,0 +1,35 @@
+---
+title: "datathon_2024"
+---
+
+## Welcome to the Datathon!
+
+Welcome to the Datathon! We're here to learn about data together, and grow our skills in data analysis and visualization.
+
+In the Google Doc, please introduce yourself, what group you work in, and what you want to learn today.
+
+[Google Doc Link](https://docs.google.com/document/d/1KG8S0RTjWO0lCETE3ExN4w_3-HeQOLm9KDusYyiB92U/edit?tab=t.0)
+
+## Choose a Dataset
+
+- [NHANES](nhanes.qmd) - this is a more complicated dataset, so it needs a little bit of background
+- [CO2 Emissions](co2.qmd)
+
+## Post-its
+
+We'll be roaming around in case anyone needs help with the R or Python Exploration of the data.
+
+- Green Post-it: I'm OK, don't bother me
+- Pink Post-it: I need help!
+
+## Share your work
+
+We have a [datathon google doc](https://docs.google.com/document/d/1KG8S0RTjWO0lCETE3ExN4w_3-HeQOLm9KDusYyiB92U/edit?tab=t.0) - please add any plots, with code or a short description of the insight you got from the data. 
+
+No Insight is too small - please share anything you've learned! Our goal is to increase our understanding of these public datasets. 
+
+## Announcements
+
+- Pizza will be served at 12 PM
+- Come or stay for as long as you like
+- Will do data intro sessions as needed

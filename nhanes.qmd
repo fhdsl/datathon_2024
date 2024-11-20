@@ -1,0 +1,54 @@
+---
+title: "NHANES"
+---
+
+## About NHANES
+
+## What is NHANES and why are we looking at it?
+
+- **N**ational **H**ealth **A**nd **N**utrition **E**xamination **S**urvey
+- Assess health/nutritional status of adults/children in the United States
+- Types of Survey Questions:
+    + Demographic (Age, Race, Gender, many more...)
+    + Socioeconomic (Marriage Status, Household Income, Education)
+    + Dietary (Foods consumed, dietary supplements)
+    + Health (Body Mass Index, Sleep Trouble, Depression)
+
+## Please Note
+
+- We're not going to look at all of NHANES.
+- We're looking at an extract from two years of the survey (which years?)
+- We're ignoring how particpants were chosen/sampled from the larger population
+    + We'll talk a a little about this later.
+    
+## Look at the Data and Get Info
+
+- [NHANES Overview](nhanes_overview.qmd) - this contains a spreadsheet, summary tables of the data and the data dictionary. 
+
+## Outcomes
+
+This dataset has some potential outcomes of interest:
+
+-   `Diabetes` - Study participant told by a doctor or health professional that they have diabetes. Reported for participants aged 1 year or older as `Yes` or `No`. 
+-   `Depressed` - Self-reported number of days where participant felt down, depressed or hopeless. Reported for participants aged 18 years or older. One of `None`, `Several`, `Majority` (more than half the days), or `AlmostAll`. 
+-   `PhysActive` - Participant does moderate or vigorous-intensity sports, fitness or recreational activities (Yes or No). Reported for participants 12 years or older.<br>
+
+Your type of outcomes here are categorical, not numeric, so think about which visualizations you'll need.
+
+## Start with a question
+
+Take a look at the list of variables in the data dictionary and make a prediction about which variables are associated with one of these outcomes. 
+
+For example, is drug usage (`Marijuana`, `HardDrugs`) have a positive association with `Depression`?
+
+Here is a [list of questions](explore.qmd) for the above outcome variables if you're stuck.
+
+## Visualize Your Outcome
+
+Make a 1-D plot of the outcome variable. What is the distribution like?
+
+## Look for it in the data
+
+- Try looking for any association of your outcome and your variables of interest.
+- Try filtering for a specific group (such as ``) and seeing 
+
