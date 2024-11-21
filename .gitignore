@@ -1,7 +1,7 @@
 # History files
 .Rhistory
 .Rapp.history
-
+.quarto/*
 # Session Data files
 .RData
 .RDataTmp
@@ -39,11 +39,10 @@ vignettes/*.pdf
 # R Environment Variables
 .Renviron
 
-# pkgdown site
-docs/
-
 # translation temp files
 po/*~
 
 # RStudio Connect folder
 rsconnect/
+
+/.quarto/

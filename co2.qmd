@@ -4,4 +4,4 @@ title: "CO2 Emissions"
 
 - R Users: Posit Cloud Workspace: <https://posit.cloud/spaces/570432/content/9256097>
 - Python Users: Google Colab notebook: <https://colab.research.google.com/drive/1-fHDu2Y5Jz0iLcnexA4z5zj6NNHRkCWl?usp=sharing>
-
+- [Download the Data (via FH Sharepoint)](https://fredhutch-my.sharepoint.com/:f:/g/personal/clo2_fredhutch_org/Et7uB8nocaJCrRrPTAElHuIBx8xPX4z5g7ZslY-Ie85Raw?e=52OG9U)
