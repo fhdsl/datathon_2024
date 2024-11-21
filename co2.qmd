@@ -2,6 +2,48 @@
 title: "CO2 Emissions"
 ---
 
-- R Users: Posit Cloud Workspace: <https://posit.cloud/spaces/570432/content/9256097>
-- Python Users: Google Colab notebook: <https://colab.research.google.com/drive/1-fHDu2Y5Jz0iLcnexA4z5zj6NNHRkCWl?usp=sharing>
+## Introduction
 
+This Data-thon project is based on [Open Case Studies on Exploring CO2 Emissions Over Time](https://www.opencasestudies.org/ocs-bp-co2-emissions/). This case study explores how different countries may have contributed to Carbon Dioxide (CO2) emissions over time. The Open Case Studies link may provide some inspiration if you want to see what other people have done with these data.
+
+## Datasets
+
+The datasets are pulled from the following [GitHub repository](https://github.com/fhdsl/Datathon-CO2-emissions).
+
+We recommend exploring these three datasets:
+
+-   `Datathon-CO2-emissions/data/yearly_co2_emissions_1000_tonnes.xlsx` gives yearly CO2 emission per 1,000 tonnes (metric tons) for many countries.
+
+-   `Datathon-CO2-emissions/data/temperature.csv` gives yearly average temperature of the United States. The first four lines must be skipped in order for the data to be loaded properly.
+
+-   `Datathon-CO2-emissions/data/energy_use_per_person.xlsx` gives [energy use of Kilogram of oil equivalent per capita](https://databank.worldbank.org/metadataglossary/world-development-indicators/series/EG.USE.PCAP.KG.OE).
+
+If you like, there are two additional datasets that may be of relevance, depending on your question of interest:
+
+-   `Datathon-CO2-emissions/data/diasters.csv` gives information about the number of natural disasters the United States witnessed since the 1980s. The first two lines must be skipped in order for the data to be loaded properly.
+
+-   `Datathon-CO2-emissions/data/gdp_per_capita_yearly_growth.xlsx` gives the Yearly Growth in GDP per Capita.
+
+## Getting started
+
+### R user
+
+-   We will compute on Posit Cloud.
+
+-   Join our [R community workspace here](https://posit.cloud/spaces/570432/join?access_code=AkRo5VRRgoOUHLp_3cbBE8Sx3oJnpfwh6ogLK3nJ).
+
+-   You should see an assignment called [Data-thon: CO2 Emissions](Data-thon: CO2 Emissions). Make a copy of it and get started.
+
+### Python User
+
+-   We will compute on Google Colab Notebooks.
+
+-   You can access [the notebook here](https://colab.research.google.com/drive/1-fHDu2Y5Jz0iLcnexA4z5zj6NNHRkCWl?usp=sharing). Make a copy of it and get started.
+
+### General access to the data
+
+Perhaps you want to compute locally on your computer, or use a different language other than R and Python. Download the data here:
+
+-   [Fred Hutch Sharepoint link](https://fredhutch-my.sharepoint.com/:f:/g/personal/clo2_fredhutch_org/Et7uB8nocaJCrRrPTAElHuIBx8xPX4z5g7ZslY-Ie85Raw?e=52OG9U)
+
+-   [GitHub repository](https://github.com/fhdsl/Datathon-CO2-emissions)
