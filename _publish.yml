@@ -1,0 +1,4 @@
+- source: project
+  netlify:
+    - id: 5464725e-e952-4a0d-bef9-771d0ad3f6ba
+      url: 'https://datathon2024.netlify.app'
